@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <style>
+        @media (min-width:375px) and (max-width:1400px){
+        body{
+            
+            background-color: aquamarine;
+            background-image: url("https://pics.craiyon.com/2023-09-27/78d2a179ed26457f828e08a2aca12183.webp");
+            background-repeat:none;
+            background-size: 100%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1{
+            text-align: center;
+            color:white;
+        }
+        #form{
+            /* background-color: rgba(128, 223, 136, 0.226); */
+            padding:65px;
+            border-radius: 20px;;
+            background-color: rgba(81, 211, 161, 0.397);
+            
+        }
+        label{
+            float:left;
+        }
+        input, select{
+        
+            float:right;
+            border:none;
+            border-radius: 4px;
+            padding:5px
+        }
+        input:focus{
+            background-color: rgba(172, 219, 153, 0.295);
+        }
+        select{
+            width:175px;
+        }
+        #main{
+            margin:80px 400px;
+        }
+        #butt{
+            padding:8px 30px;
+            background-color: greenyellow;
+            margin:10px;
+            border: none;
+            border-radius: 3px;
+        }
+        #butt:hover{
+            background-color: white;
+            color:black;
+            
+        }
+        #button{
+            margin-top:25px;
+            padding-left:90px;
+            
+        }
+
+        
+    }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>Student Information</h1>
+        <form id="form">
+            <label >Student Roll. No.</label>
+            <input placeholder="Roll. no.">
+            <br><br>
+            <label >Student Name</label>
+            <input placeholder="Name">
+            <br>
+            <br>
+            <label >Department</label>
+            <select >
+                <option>ECE</option>
+                <option>CSE</option>
+                <option>AI & ML</option>
+                <option>EEE</option>
+                <option>MECH</option>
+            </select>
+            <br>
+            <br>
+            <label >10th Mark</label>
+            <input placeholder="Enter Mark">
+            <br>
+            <br>
+            <label >12th Mark</label>
+            <input placeholder="Enter Mark">
+            <br>
+            <br>
+            <label >Degree Percentage</label>
+            <input placeholder="Enter Mark">
+            <br>
+            <br>
+            <div id="button">
+                <button id="butt">Submit</button>
+                <button id="butt">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
